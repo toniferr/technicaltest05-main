@@ -8,16 +8,11 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import com.inditex.hiring.application.dto.OfferDto;
-
-
-import javax.validation.Valid;
-
+import jakarta.validation.Valid;
 
 @RestController
 public class OfferController {
 
-	
-	
 	//Crear
 	@RequestMapping(value="/offer", method = RequestMethod.POST)
 	@ResponseStatus(HttpStatus.OK)

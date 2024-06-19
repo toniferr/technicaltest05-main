@@ -1,11 +1,11 @@
 package com.inditex.hiring.application.dto;
 
+import jakarta.validation.constraints.NotNull;
+import org.hibernate.validator.constraints.NotEmpty;
+
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-import javax.validation.constraints.NotNull;
-
-import org.hibernate.validator.constraints.NotEmpty;
 
 /**
  * Use this POJO for offer service end point responses.
